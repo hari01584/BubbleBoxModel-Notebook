@@ -1,6 +1,16 @@
 dataset-raw/*
+
 dataset-sampling/*
+!dataset-sampling/models
+!dataset-sampling/models/my_ssd_resnet50_v1_fpn
+dataset-sampling/models/my_ssd_resnet50_v1_fpn/**
+!dataset-sampling/models/my_ssd_resnet50_v1_fpn/pipeline.config
+
+!dataset-sampling/labels
+*.csv
+
 manga-panels-dataset-817-mangas/*
+models/*
 
 MANIFEST
 build
